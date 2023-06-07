@@ -1,5 +1,5 @@
 .box {
-   
+  background-color: rgb(23, 127, 7);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,6 +7,9 @@
   }
 
 .list-container {
+  background-color: grey;
+  box-shadow: 10px;
+  box-decoration-break: 10px;
     width: 550px;
     height: 350px; /* Set the desired height of the scrollable area */
     overflow-y: auto; /* Enable vertical scrolling */
